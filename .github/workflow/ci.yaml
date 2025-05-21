@@ -1,0 +1,30 @@
+# ci to run semantic release to version the package on push to main and maintenance branches like 1.x
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+      - '[0-9]+.x'  # This pattern matches any version branch like 1.x, 2.x, etc.
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run semantic release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
+

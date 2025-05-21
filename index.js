@@ -3,3 +3,4 @@ console.log("First feature");
 console.log("Second feature");
 console.log("fix a bug");
 console.log("Third feature");
+console.log("Bug hot fix");

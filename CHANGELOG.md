@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/dadiorchen/test-semantic-release/compare/v1.2.1...v1.2.2) (2025-05-21)
+
+
+### Bug Fixes
+
+* hot fix 2 ([259266c](https://github.com/dadiorchen/test-semantic-release/commit/259266ca01dd8215ab9004b84c98ed3fc87942ad))
+
 ## [1.2.1](https://github.com/dadiorchen/test-semantic-release/compare/v1.2.0...v1.2.1) (2025-05-21)
 
 

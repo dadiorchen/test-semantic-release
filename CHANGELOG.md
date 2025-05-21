@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/dadiorchen/test-semantic-release/compare/v1.1.2...v1.2.0) (2025-05-21)
+
+
+### Features
+
+* new ([cb5b285](https://github.com/dadiorchen/test-semantic-release/commit/cb5b2854ab986901e5deb24c2c598cb4a30cbc1c))
+
 ## [1.1.2](https://github.com/dadiorchen/test-semantic-release/compare/v1.1.1...v1.1.2) (2025-05-21)
 
 

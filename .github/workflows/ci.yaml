@@ -10,6 +10,10 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # Required to push tags/commits
+      issues: write     # Optional (if using issue tracking)
+      pull-requests: write  # Optional (if updating PRs)
 
     steps:
       - name: Checkout code

@@ -4,3 +4,4 @@ console.log("Second feature");
 console.log("fix a bug");
 console.log("Third feature");
 console.log("Bug fix");
+console.log("Fourth feature");
